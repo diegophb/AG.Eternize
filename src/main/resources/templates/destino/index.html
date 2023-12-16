@@ -169,12 +169,12 @@
 			
       <div class="mb-3">
 		    <label for="nomeDestino" class="form-label">Nome do Destino</label>
-		    <input class="form-control" id="nomeDestino" th:field="*{nome}">
+		    <input th:placeholder="${destino.nome}" class="form-control" id="nomeDestino" th:field="*{nome}">
 	  </div>
 	  
       <div class="mb-3">
 		    <label for="valor" class="form-label">Valor</label>
-		    <input class="form-control" id="valor" th:field="*{valor}">
+		    <input th:placeholder="${destino.valor}" class="form-control" id="valor" th:field="*{valor}">
 	  </div>
 	  
 	  <div class="mb-3">
