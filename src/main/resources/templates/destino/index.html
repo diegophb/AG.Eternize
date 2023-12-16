@@ -86,7 +86,7 @@
         <div class="card-container d-flex flex-wrap">
             <!-- Cards Thymeleaf -->
             <div th:each="destino : ${destinos}" class="card mb-3" style="width: calc(25% - 10px); margin-right: 10px; position: relative;">
-                <img alt="Image" class="img_prod" th:src="|/destino/imagem/${destino.id_destino}|" />
+                <img alt="Image" class="img_prod" th:src="|/destino/imagem/${destino.id_destino}|" height="220px" width="312px" style="border-radius: 2%;"/>
                 <div class="card-id-overlay" style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); text-align: left; width: 100%;">
                     <span class="badge bg-white text-dark p-2 rounded" th:text="'id '+${destino.id_destino}"></span>
                 </div>
