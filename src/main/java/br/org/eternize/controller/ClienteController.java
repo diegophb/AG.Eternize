@@ -42,9 +42,6 @@ public class ClienteController {
 	        clienteRepository.save(novoCliente);
 	        return modelAndView;
 	    }
-	
-	 
-	 
 	 
 	 @GetMapping("/{id}/editar")
 	 public ModelAndView editar(@PathVariable Long id){
