@@ -40,7 +40,7 @@ INSERT INTO cliente(Nome,Telefone, Email) VALUES ("Bia", "(00)9876-5432", "Bia@e
 INSERT INTO destino(Nome,valor) VALUES ("João Pessoa", "1000.00");
 INSERT INTO destino(Nome, valor) VALUES ("Paris", "32000.00");
 INSERT INTO destino(Nome, valor) VALUES ("parnaiba", "1000.00");
-INSERT INTO destino(Nome, valor) VALUES ("ba", "3200.00");
+INSERT INTO destino(Nome, valor) VALUES ("Salvador", "3200.00");
 
 INSERT INTO Pacote(nome, valor) VALUES ("VIP", 1500.23);
 INSERT INTO Pacote(nome, valor) VALUES ("ECONOMICA", 450.25);
